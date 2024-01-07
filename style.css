@@ -1,0 +1,208 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.home{
+    height: 100vh;
+    background-image: url("images/drew-coffman-1872.jpg");
+    background-size: 100% 100%;
+    background-position: center center;
+    overflow: auto;
+}
+.container{
+}
+.container .nav-logo {
+    float: left;
+    width: 13%;
+    margin-top: 10px;
+}
+.container .nav-links{
+    float: right;
+}
+.clear-fix{
+    clear: both;
+}
+.nav-logo img{
+    width: 100%;
+}
+.x li{
+    float: left;
+    margin: 10px 5px;
+    padding: 15px ;
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+.container
+{
+    width: 90%;
+    margin: auto;
+}
+.home-cap{
+    text-align: center;
+    color: white;
+    width: 58%;
+    margin: 70px auto 0;
+
+}
+.home-cap p{
+    font-size: 23px;
+}
+.home-cap h1{
+    font-size: 55px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.home-cap button{
+    border-radius: 5px;
+    color: white;
+    margin: 20px 5px;
+    padding: 17px;
+
+}
+.btn1{
+    border: 2px solid saddlebrown;
+    background-color: saddlebrown;
+}
+.btn2{
+    border: 2px solid white;
+    background-color: transparent;
+}
+.clear-fix{
+    clear: both;
+}
+.scroll{
+    width: 35px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 40%;
+    margin:40px auto 0;
+}
+.about{
+    width: 90%;
+    margin: 50px auto 0;
+}
+.about .about-img{
+    width: 40%;
+    float: left;
+}
+.about-img img{
+    width: 100%;
+}
+.about-cap{
+    width: 50%;
+    float: right;
+    font-size: 18px;
+    margin-top: 20px;
+    color: #686868;
+    margin-right: 20px;
+}
+.about-cap h2
+{
+    color: black;
+}
+.about-list ul li
+{
+    padding: 15px;
+}
+.offer{
+    width: 90%;
+    margin: auto;
+}
+.offer-img{
+    width: 40%;
+    float: right;
+}
+.offer-img img{
+    width: 100%;
+}
+.offer-cap{
+    width: 50%;
+    float: left;
+    margin: 50px 30px;
+    color: #686868;
+    padding-top: 50px ;
+}
+.offer-cap h2
+{
+    color: black;
+}
+.gallery{
+    width: 90%;
+    margin: 50px auto;
+    text-align: center;
+}
+.gallery h3{
+    padding: 15px;
+    font-size: 23px;
+}
+.meal img{
+    width: 100%;
+}
+.inner{
+    padding: 33px;
+}
+.meal p{
+    margin: 10px 0;
+    color: #686868;
+}
+.meal{
+    float: left;
+    width: 33.33%;
+}
+.meal h5{
+    padding: 25px;
+    font-size: 20px ;
+}
+.blog{
+    width: 90%;
+    margin:0 auto 50px  ;
+    overflow: auto;
+}
+.blog-cap{
+    width: 50%;
+    float: left;
+}
+.map{
+    width: 50%;
+    float: right;
+}
+.blog-cap p{
+    padding-top: 15px;
+}
+.about-list{
+    margin: 20px 20px;
+}
+.information{
+    width: 100%;
+    background-color: rgb(70, 68, 68);
+    overflow: auto;
+}
+.item{
+    width: 25%;
+    float: left;
+    padding: 35px ;
+}
+.item h3{
+    color: white;
+}
+.item{
+    color: #686877;
+}
+.info{
+    background-color: #686868;
+    overflow: auto;
+    text-align: center;
+    padding: 30px ;
+}
+
